@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px solid $orange-color;
+    /*border-bottom: 1px solid $orange-color-light;*/
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -17,10 +17,11 @@
     margin-bottom: 0;
     float: left;
     font-variant: small-caps;
+    color: $orange-color;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $orange-color;
     }
 }
 
@@ -35,7 +36,7 @@
     .page-link {
         font-size: 16px;
         font-weight: bold;
-        color: $text-color;
+        color: $orange-color;
         line-height: $base-line-height;
         text-transform: uppercase;
 
@@ -96,7 +97,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    /*border-top: 1px solid $orange-color-light;*/
     padding: $spacing-unit 0;
 }
 
@@ -167,6 +168,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    background-color: $background-color-light;
 }
 
 .page-heading {
