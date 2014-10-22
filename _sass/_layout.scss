@@ -16,6 +16,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    font-variant: small-caps;
 
     &,
     &:visited {
@@ -32,8 +33,11 @@
     }
 
     .page-link {
+        font-size: 16px;
+        font-weight: bold;
         color: $text-color;
         line-height: $base-line-height;
+        text-transform: uppercase;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -170,21 +174,24 @@
 }
 
 .post-list {
-    margin-left: 0;
+    margin-left: 6cm;
     list-style: none;
-
+    
     > li {
         margin-bottom: $spacing-unit;
     }
 }
 
 .post-meta {
+    vertical-align: middle;
     font-size: $small-font-size;
     color: $grey-color;
+    text-transform: uppercase;
 }
 
 .post-link {
-    display: block;
+    vertical-align: middle;
+    /*display: block;*/
     font-size: 24px;
 }
 
