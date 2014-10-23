@@ -2,7 +2,9 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $orange-color;
+    border-top: 5px solid $orange-color-dark;
+    padding-top: 30px;
+    padding-bottom: 10px;
     /*border-bottom: 1px solid $orange-color-light;*/
     min-height: 56px;
 
@@ -17,11 +19,11 @@
     margin-bottom: 0;
     float: left;
     font-variant: small-caps;
-    color: $orange-color;
+    color: $white-color;
 
     &,
     &:visited {
-        color: $orange-color;
+        color: $white-color;
     }
 }
 
@@ -99,6 +101,7 @@
 .site-footer {
     /*border-top: 1px solid $orange-color-light;*/
     padding: $spacing-unit 0;
+    min-height: 56px;
 }
 
 .footer-heading {
@@ -187,7 +190,7 @@
 .post-meta {
     vertical-align: middle;
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $grey-color-light;
     text-transform: uppercase;
 }
 
@@ -241,5 +244,11 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+}
+
+.rss-subscribe {
+    .a {
+        color: $orange-color;
     }
 }
