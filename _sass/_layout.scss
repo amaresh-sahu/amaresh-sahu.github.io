@@ -2,10 +2,9 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $orange-color-dark;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    /*border-bottom: 1px solid $orange-color-light;*/
+    border-top: 4px solid $orange-color-light;
+    padding-top: 60px;
+    padding-bottom: 40px;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -19,12 +18,7 @@
     margin-bottom: 0;
     float: left;
     font-variant: small-caps;
-    color: $white-color;
-
-    &,
-    &:visited {
-        color: $white-color;
-    }
+    color: $text-grey-white;
 }
 
 .site-nav {
@@ -37,14 +31,14 @@
 
     .page-link {
         font-size: 16px;
-        font-weight: bold;
-        color: $orange-color;
+        //font-weight: bold;
+        color: $orange-color-light;
         line-height: $base-line-height;
         text-transform: uppercase;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-left: 40px;
         }
     }
 
@@ -52,8 +46,8 @@
         position: absolute;
         top: 9px;
         right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        background-color: $background-color-dark;
+        border: 1px solid $text-grey-light;
         border-radius: 5px;
         text-align: right;
 
@@ -71,7 +65,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $background-color-dark;
                 }
             }
         }
@@ -99,8 +93,9 @@
  * Site footer
  */
 .site-footer {
-    /*border-top: 1px solid $orange-color-light;*/
-    padding: $spacing-unit 0;
+    padding-top: 50px;
+    padding-bottom:70px;
+    //padding: $spacing-unit 0;
     min-height: 56px;
 }
 
@@ -117,7 +112,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $text-grey-medium;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -190,7 +185,7 @@
 .post-meta {
     vertical-align: middle;
     font-size: $small-font-size;
-    color: $grey-color-light;
+    color: $text-grey-light;
     text-transform: uppercase;
 }
 
@@ -249,6 +244,6 @@
 
 .rss-subscribe {
     .a {
-        color: $orange-color;
+        color: $orange-color-medium;
     }
 }
