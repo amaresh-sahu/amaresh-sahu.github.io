@@ -5,7 +5,7 @@
     border-top: 4px solid $orange-color-light;
     padding-top: 60px;
     padding-bottom: 40px;
-    min-height: 56px;
+    //min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -30,7 +30,7 @@
     }
 
     .page-link {
-        font-size: 16px;
+        font-size: 18px;
         //font-weight: bold;
         color: $orange-color-light;
         line-height: $base-line-height;
@@ -38,7 +38,7 @@
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 40px;
+            margin-left: 45px;
         }
     }
 
@@ -95,7 +95,6 @@
 .site-footer {
     padding-top: 50px;
     padding-bottom:70px;
-    //padding: $spacing-unit 0;
     min-height: 56px;
 }
 
@@ -111,10 +110,13 @@
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: 16px;
     color: $text-grey-medium;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
+    a {
+        color: $text-grey-white;
+    }
 }
 
 .footer-col {
@@ -124,18 +126,18 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
+    width:         calc(40% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -165,7 +167,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit*1.67 0;
     background-color: $background-color-light;
 }
 
@@ -174,11 +176,11 @@
 }
 
 .post-list {
-    margin-left: 6cm;
+    margin-left: 3cm;
     list-style: none;
     
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: $spacing-unit/2;
     }
 }
 
@@ -187,12 +189,17 @@
     font-size: $small-font-size;
     color: $text-grey-light;
     text-transform: uppercase;
+    padding-right: $spacing-unit*.67;
 }
 
 .post-link {
     vertical-align: middle;
     /*display: block;*/
     font-size: 24px;
+}
+
+.rss-subscribe {
+    padding-top: $spacing-unit*1.4;
 }
 
 
@@ -202,10 +209,12 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    padding-left: $spacing-unit;
+    //padding-top: $spacing-unit*.707;
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 36px;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -239,11 +248,5 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
-    }
-}
-
-.rss-subscribe {
-    .a {
-        color: $orange-color-medium;
     }
 }
