@@ -3,42 +3,49 @@
  */
 .site-header {
     border-top: 4px solid $orange-color-light;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    //min-height: 56px;
+    padding-top: $site-header-padding-top;
+    padding-bottom: $site-header-padding-bottom;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-    font-variant: small-caps;
-    color: $text-grey-white;
+    font-family: $site-title-font-family;
+    font-size: $site-title-font-size;
+    line-height: $site-title-line-height;
+    letter-spacing: $site-title-letter-spacing;
+    margin-bottom: $site-title-margin-bottom;
+    float: $site-title-float;
+    //font-variant: $site-title-font-variant;
+    color: $site-title-color;
+
+    &:hover {
+        color: $site-title-hover-color;
+    }
 }
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: $site-nav-line-height;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        font-size: 18px;
-        //font-weight: bold;
-        color: $orange-color-light;
-        line-height: $base-line-height;
+        font-family: $site-nav-font-family;
+        font-size: $site-nav-font-size;
+        color: $site-nav-font-color;
         text-transform: uppercase;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 45px;
+            margin-left: $site-nav-word-gap;
+        }
+
+        &:hover {
+            color: $site-nav-font-hover-color;
         }
     }
 
@@ -93,14 +100,12 @@
  * Site footer
  */
 .site-footer {
-    padding-top: 50px;
-    padding-bottom:70px;
-    min-height: 56px;
+    padding-top: $site-footer-padding-top;
+    padding-bottom: $site-footer-padding-bottom;
 }
 
 .footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $site-footer-margin-bottom;
 }
 
 .contact-list,
@@ -110,12 +115,14 @@
 }
 
 .footer-col-wrapper {
-    font-size: 16px;
-    color: $text-grey-medium;
+    font-size: $site-footer-font-size;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
     a {
-        color: $text-grey-white;
+        color: $site-footer-font-color;
+        &:hover {
+            color: $site-footer-font-color-hover;
+        }
     }
 }
 
@@ -167,39 +174,43 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit*1.67 0;
+    padding-top: $page-content-padding-top;
+    padding-bottom: $page-content-padding-bottom;
     background-color: $background-color-light;
 }
 
+/*
 .page-heading {
     font-size: 20px;
-}
+}*/
 
 .post-list {
-    margin-left: 3cm;
+    margin-left: $post-list-margin-left;
     list-style: none;
     
     > li {
-        margin-bottom: $spacing-unit/2;
+        margin-bottom: $post-list-margin-bottom;
     }
 }
 
 .post-meta {
+    font-family: $post-meta-font-family;
     vertical-align: middle;
-    font-size: $small-font-size;
-    color: $text-grey-light;
+    font-size: $post-meta-font-size;
+    color: $post-meta-font-color;
     text-transform: uppercase;
-    padding-right: $spacing-unit*.67;
+    padding-right: $post-meta-padding-right;
 }
 
 .post-link {
-    vertical-align: middle;
-    /*display: block;*/
-    font-size: 24px;
+    font-family: $post-link-font-family;
+    vertical-align: bottom;
+    font-size: $post-link-font-size;
 }
 
 .rss-subscribe {
-    padding-top: $spacing-unit*1.4;
+    padding-top: $rss-padding-top;
+    font-family: $rss-font-family;
 }
 
 
@@ -208,23 +219,27 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
-    padding-left: $spacing-unit;
-    //padding-top: $spacing-unit*.707;
+    margin-bottom: $post-header-margin-bottom;
+    padding-left: $post-header-padding-left;
 }
 
 .post-title {
-    font-size: 36px;
-    letter-spacing: -1px;
-    line-height: 1;
+    font-family: $post-title-font-family;
+    font-size: $post-title-font-size;
+    letter-spacing: $post-title-letter-spacing;
+    line-height: $post-title-line-height;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: $post-title-font-size;
     }
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
+    font-family: $post-content-font-family;
+    text-align: justify;
+    line-height: $post-line-height;
+
 
     h2 {
         font-size: 32px;

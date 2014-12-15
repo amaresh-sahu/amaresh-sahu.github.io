@@ -10,3 +10,4 @@ github_username:  amaresh-sahu
 
 # Build settings
 markdown: kramdown
+highlighter: pygments

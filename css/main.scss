@@ -7,16 +7,18 @@
 
 // Our variables
 
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   19px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.9;
+
+// spacing
 
 $spacing-unit:     44px;
 
-$orange-color-medium: 	lighten(#F87217, 4%);
-$orange-color-light: 	lighten($orange-color-medium, 8%);
-$orange-color-dark: 	darken($orange-color-medium, 20%);
+
+
+// color
+$orange-color: 			lighten(#F87217, 4%);
+$orange-color-medium: 	#F87217;
+$orange-color-light: 	lighten($orange-color, 8%);
+$orange-color-dark: 	darken($orange-color, 20%);
 
 $text-grey-white: 		#fdfdfd;
 $text-grey-medium:		#828282;
@@ -25,6 +27,122 @@ $text-grey-dark:		darken($text-grey-medium, 35%);
 
 $background-color-dark:		darken($text-grey-medium, 35%);
 $background-color-light:	darken($text-grey-medium, 30%);
+
+$code-default-font-color: $text-grey-dark;
+
+
+
+// base
+
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   19px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.9;
+
+
+
+// site-header
+
+$site-header-padding-top: 60px;
+$site-header-padding-bottom: 40px;
+
+
+
+// site-title
+
+$site-title-font-family: 'Ubuntu', serif;
+$site-title-font-size: 36px;
+$site-title-line-height: 56px;
+$site-title-letter-spacing: -1px;
+$site-title-margin-bottom: 0;
+$site-title-float: left;
+$site-title-font-variant: small-caps;
+$site-title-color: $text-grey-white;
+$site-title-hover-color: $text-grey-light;
+
+
+
+// site-footer
+
+$site-footer-padding-top: 50px;
+$site-footer-padding-bottom: 70px;
+$site-footer-font-size: 16px;
+$site-footer-margin-bottom: 22px;
+$site-footer-font-color: $text-grey-white;
+$site-footer-font-color-hover: $text-grey-light;
+
+
+
+// site-nav
+
+$site-nav-font-family: 'Lato', sans-serif;
+$site-nav-line-height: 56px;
+$site-nav-font-size: 20px;
+$site-nav-font-color: $orange-color-light;
+$site-nav-word-gap: 45px;
+$site-nav-font-hover-color: $orange-color-medium;
+
+
+
+// post-title
+
+$post-title-font-family: 'PT Sans', sans-serif;
+$post-title-home-font-size: 19px;
+$post-title-font-size: 38px;
+$post-title-letter-spacing: -1px;
+$post-title-line-height: 1;
+
+
+
+// page
+
+$page-content-padding-top: 95px;
+$page-content-padding-bottom: 87px;
+
+
+
+// post-list
+
+$post-list-margin-left: 3cm;
+$post-list-margin-bottom: 22px;
+
+
+
+// post-meta
+
+$post-meta-font-size: 17px;
+$post-meta-font-color: $text-grey-light;
+$post-meta-padding-right: 35px;
+$post-meta-font-family: 'Lato', sans-serif;
+
+
+
+// post-link
+
+$post-link-font-size: 26px;
+$post-link-font-family: 'PT Sans', sans-serif;
+
+
+
+// rss
+
+$rss-padding-top: 62px;
+$rss-font-family: 'PT Sans', sans-serif;
+
+
+
+// post-header
+
+$post-header-margin-bottom: 44px;
+$post-header-padding-left: 5px;
+
+
+
+// post-content
+
+$post-content-margin-bottom: 44px;
+$post-content-font-family: 'Gentium Book Basic', serif;
+$post-line-height: 1.5;
 
 
 

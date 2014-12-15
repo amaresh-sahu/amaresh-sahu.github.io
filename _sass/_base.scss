@@ -92,16 +92,9 @@ a {
     color: $orange-color-light;
     text-decoration: none;
 
-    /*
-    &:visited {
-        color: darken($text-grey-white, 5%);
-    }
-    */
-
     &:hover {
-        /*color: $text-grey-white;*/
-        text-decoration: underline;
-        /*border-bottom: dotted 1px;*/
+        color: $orange-color-medium;
+        //text-decoration: underline;
     }
 }
 
