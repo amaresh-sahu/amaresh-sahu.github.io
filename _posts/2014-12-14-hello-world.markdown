@@ -54,4 +54,4 @@ So now you know. The next time you see someone learning a new programming langua
 
 And of course, as this is my first post:
 
-> # hello, world!
+> hello, world!

@@ -11,6 +11,7 @@
 }
 
 .site-title {
+    font-style: italic;
     font-family: $site-title-font-family;
     font-size: $site-title-font-size;
     line-height: $site-title-line-height;
@@ -206,6 +207,7 @@
     font-family: $post-link-font-family;
     vertical-align: bottom;
     font-size: $post-link-font-size;
+    font-style: $post-link-font-style;
 }
 
 .rss-subscribe {
@@ -228,6 +230,7 @@
     font-size: $post-title-font-size;
     letter-spacing: $post-title-letter-spacing;
     line-height: $post-title-line-height;
+    color: $post-title-font-color;
 
     @include media-query($on-laptop) {
         font-size: $post-title-font-size;

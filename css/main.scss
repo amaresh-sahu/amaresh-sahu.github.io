@@ -21,6 +21,7 @@ $orange-color-light: 	lighten($orange-color, 8%);
 $orange-color-dark: 	darken($orange-color, 20%);
 
 $text-grey-white: 		#fdfdfd;
+$text-grey-dark-white:	darken($text-grey-white, 15%);
 $text-grey-medium:		#828282;
 $text-grey-light:		lighten($text-grey-medium, 20%);
 $text-grey-dark:		darken($text-grey-medium, 35%);
@@ -50,8 +51,8 @@ $site-header-padding-bottom: 40px;
 
 // site-title
 
-$site-title-font-family: 'Ubuntu', serif;
-$site-title-font-size: 36px;
+$site-title-font-family: 'Vollkorn', serif;
+$site-title-font-size: 44px;
 $site-title-line-height: 56px;
 $site-title-letter-spacing: -1px;
 $site-title-margin-bottom: 0;
@@ -86,11 +87,12 @@ $site-nav-font-hover-color: $orange-color-medium;
 
 // post-title
 
-$post-title-font-family: 'PT Sans', sans-serif;
+$post-title-font-family: 'Playfair Display', sans-serif;
 $post-title-home-font-size: 19px;
-$post-title-font-size: 38px;
+$post-title-font-size: 34px;
 $post-title-letter-spacing: -1px;
 $post-title-line-height: 1;
+$post-title-font-color: $text-grey-dark-white;
 
 
 
@@ -119,8 +121,9 @@ $post-meta-font-family: 'Lato', sans-serif;
 
 // post-link
 
-$post-link-font-size: 26px;
-$post-link-font-family: 'PT Sans', sans-serif;
+$post-link-font-size: 29px;
+$post-link-font-family: 'Gentium Book Basic', serif;
+$post-link-font-style: italic;
 
 
 
