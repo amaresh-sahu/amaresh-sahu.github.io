@@ -103,8 +103,16 @@
 .site-footer {
     padding-top: $site-footer-padding-top;
     padding-bottom: $site-footer-padding-bottom;
+    text-align: center;
+    font-size: $site-footer-font-size;
+    a {
+        &:not(:first-child) {
+            margin-left: $site-footer-icon-spacing;
+        }
+    }
 }
 
+/*
 .footer-heading {
     margin-bottom: $site-footer-margin-bottom;
 }
@@ -168,7 +176,7 @@
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
+*/
 
 
 /**

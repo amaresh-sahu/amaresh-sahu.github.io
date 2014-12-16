@@ -59,15 +59,16 @@ $site-title-margin-bottom: 0;
 $site-title-float: left;
 $site-title-font-variant: small-caps;
 $site-title-color: $text-grey-white;
-$site-title-hover-color: $text-grey-light;
+$site-title-hover-color: $text-grey-dark-white;
 
 
 
 // site-footer
 
-$site-footer-padding-top: 50px;
-$site-footer-padding-bottom: 70px;
-$site-footer-font-size: 16px;
+$site-footer-padding-top: 70px;
+$site-footer-padding-bottom: 100px;
+$site-footer-font-size: 30px;
+$site-footer-icon-spacing: 5px;
 $site-footer-margin-bottom: 22px;
 $site-footer-font-color: $text-grey-white;
 $site-footer-font-color-hover: $text-grey-light;
@@ -204,27 +205,18 @@ $on-laptop:        800px;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-email103:before {
-	content: "\e600";
-}
-.icon-twitter:before {
-	content: "\e601";
-}
-.icon-twitter2:before {
-	content: "\e602";
-}
-.icon-github:before {
-	content: "\e603";
-}
-.icon-github2:before {
+.icon-home78:before {
 	content: "\e604";
 }
-.icon-linkedin:before {
-	content: "\e605";
+.icon-github17:before {
+	content: "\e600";
 }
-.icon-linkedin2:before {
-	content: "\e606";
+.icon-gmail3:before {
+	content: "\e601";
 }
-.icon-linkedin3:before {
-	content: "\e607";
+.icon-linkedin9:before {
+	content: "\e602";
+}
+.icon-twitter8:before {
+	content: "\e603";
 }
