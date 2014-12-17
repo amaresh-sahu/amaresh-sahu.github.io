@@ -88,7 +88,8 @@ $site-nav-font-hover-color: $orange-color-medium;
 
 // post-title
 
-$post-title-font-family: 'Playfair Display', sans-serif;
+$post-title-font-family: 'Lato', sans-serif;
+$post-title-font-weight: 400;
 $post-title-home-font-size: 19px;
 $post-title-font-size: 34px;
 $post-title-letter-spacing: -1px;
@@ -117,6 +118,7 @@ $post-meta-font-size: 17px;
 $post-meta-font-color: $text-grey-light;
 $post-meta-padding-right: 35px;
 $post-meta-font-family: 'Lato', sans-serif;
+$post-meta-font-weight: 300;
 
 
 

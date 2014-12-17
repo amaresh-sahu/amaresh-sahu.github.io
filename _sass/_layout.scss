@@ -204,6 +204,7 @@
 
 .post-meta {
     font-family: $post-meta-font-family;
+    font-weight: $post-meta-font-weight;
     vertical-align: middle;
     font-size: $post-meta-font-size;
     color: $post-meta-font-color;
@@ -235,6 +236,7 @@
 
 .post-title {
     font-family: $post-title-font-family;
+    font-weight: $post-title-font-weight;
     font-size: $post-title-font-size;
     letter-spacing: $post-title-letter-spacing;
     line-height: $post-title-line-height;
