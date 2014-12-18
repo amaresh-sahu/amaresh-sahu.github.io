@@ -106,9 +106,11 @@
     text-align: center;
     font-size: $site-footer-font-size;
     a {
-        &:not(:first-child) {
-            margin-left: $site-footer-icon-spacing;
-        }
+        /*&:not(:first-child) {
+            padding-left: $site-footer-icon-spacing;
+        }*/
+        margin-left: $site-footer-icon-spacing;
+        margin-right: $site-footer-icon-spacing;
     }
 }
 

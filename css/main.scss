@@ -66,7 +66,7 @@ $site-title-hover-color: $text-grey-dark-white;
 // site-footer
 
 $site-footer-padding-top: 70px;
-$site-footer-padding-bottom: 100px;
+$site-footer-padding-bottom: 120px;
 $site-footer-font-size: 30px;
 $site-footer-icon-spacing: 5px;
 $site-footer-margin-bottom: 22px;
@@ -207,6 +207,9 @@ $on-laptop:        800px;
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-wifi13:before {
+	content: "\e605";
+}
 .icon-home78:before {
 	content: "\e604";
 }

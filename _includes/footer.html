@@ -1,17 +1,25 @@
 <footer class="site-footer">
   
-  <a href="https://github.com/{{ site.github_username }}">
-  <span class="icon-github17"></span>
+  <a href="{{ site.baseurl }}/">
+  <span class="icon-home78"></span>
   </a>
   <a href="mailto:{{ site.email }}">
   <span class="icon-gmail3"></span>
   </a>
+  <a href="https://github.com/{{ site.github_username }}">
+  <span class="icon-github17"></span>
+  </a>
+  <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+  <span class="icon-wifi13"></span>
+  </a>
+  <!--
   <a href="https://www.linkedin.com/pub/amaresh-sahu/96/5ab/73">
   <span class="icon-linkedin9"></span>
   </a>
   <a href="https://twitter.com/{{ site.twitter_username }}">
   <span class="icon-twitter8"></span>
-  </a>
+  </a>-->
+
 
 <!-- 
 
