@@ -224,6 +224,7 @@
 .rss-subscribe {
     padding-top: $rss-padding-top;
     font-family: $rss-font-family;
+    text-align: right;
 }
 
 
@@ -279,4 +280,8 @@
             font-size: 18px;
         }
     }
+}
+
+.flaticon {
+    font-size: 10px;
 }
