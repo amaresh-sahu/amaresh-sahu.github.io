@@ -114,6 +114,10 @@
     }
 }
 
+.flaticon {
+    font-size: 10px;
+}
+
 /*
 .footer-heading {
     margin-bottom: $site-footer-margin-bottom;
@@ -282,10 +286,74 @@
     }
 }
 
-.flaticon {
-    font-size: 10px;
-}
-
 code {
     color: $code-default-font-color
+}
+
+
+/**
+ * CV
+ */
+
+.cv-header {
+    margin-bottom: $post-header-margin-bottom;
+    padding-left: $post-header-padding-left;
+}
+
+.cv-title {
+    font-family: $post-title-font-family;
+    font-weight: $post-title-font-weight;
+    font-size: $post-title-font-size;
+    letter-spacing: $post-title-letter-spacing;
+    line-height: $post-title-line-height;
+    color: $post-title-font-color;
+
+    @include media-query($on-laptop) {
+        font-size: $post-title-font-size;
+    }
+}
+
+.cv-content {
+    margin-bottom: $spacing-unit;
+    font-family: $post-content-font-family;
+    font-size: $cv-font-size;
+    text-align: justify;
+    line-height: $post-line-height;
+
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+        text-transform: uppercase;
+        margin-top: 20px;
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+
+    strong {
+        font-weight: $cv-content-font-weight;
+        font-size: $cv-font-size*1.05;
+    }
+
+    ul {
+        list-style-type: none;
+        margin-left: 16px;
+        padding-left: 0;
+    }
 }

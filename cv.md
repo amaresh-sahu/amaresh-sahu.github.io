@@ -1,60 +1,76 @@
 ---
-layout: page
+layout: cv_layout
 title: "CV"
 permalink: /cv/
 ---
 
-This page is still under construction. It contains a little more detail than [my Linkedin](https://www.linkedin.com/pub/amaresh-sahu/96/5ab/73), but you can check that for a more aesthetically pleasing summary of what I've been up to. I'm hoping to finish the formatting in the next day or two (as of 18 Dec. 2014) so check back soon!
 
 ### Education
 
-Princeton University, Princeton, NJ  
-Bachelor of Science in Chemical Engineering  
-Summa cum laude  
-Tau Beta Pi, Phi Beta Kappa  
-Minors in Engineering Physics and Applied Math
+*  __Princeton University__, Princeton, NJ
+   *  Bachelor of Science in Chemical Engineering
+   *  __Summa cum laude__
+   *  Tau Beta Pi, Phi Beta Kappa
+   *  Minors in Engineering Physics and Applied Math
+
+***
 
 ### Professional Experience
 
-Software Test Engineer, Redfin  
-San Francisco, CA  
-October 2014 - Present  
+* __Software Test Engineer, Redfin__  
+  * San Francisco, CA
+  * _October 2014 - Present_
 
-Assistant Trader, Susquehanna International Group  
-Philadelphia, PA  
-August 2013 - June 2014  
+<p></p>
+* __Assistant Trader, Susquehanna International Group__
+  * Philadelphia, PA  
+  * _August 2013 - June 2014_
 
-Undergraduate Researcher, Stone Laboratory  
-Princeton University, Princeton, NJ  
-September 2012 - May 2013  
+<p></p>
+* __Undergraduate Researcher, Stone Laboratory__ 
+  * Princeton University, Princeton, NJ  
+  * _September 2012 - May 2013_  
 
-Assistant Trading Intern, Susquehanna International Group  
-Philadelphia, PA  
-June 2012 - August 2012  
+<p></p>
+* __Assistant Trading Intern, Susquehanna International Group__
+  * Philadelphia, PA  
+  * _June 2012 - August 2012_
 
-Science Undergraduate Labororatory Intern, Lawrence Berkeley National Laboratory  
-Berkeley, CA  
-June 2011 - August 2011  
+<p></p>
+* __Undergraduate Labororatory Intern, Lawrence Berkeley National Laboratory__  
+  * Berkeley, CA  
+  * _June 2011 - August 2011_
 
-Undergraduate Research Assistant, Appelbaum Laboratory  
-University of Maryland, College Park, MD  
-June 2010 - August 2010  
+<p></p>
+* __Undergraduate Research Assistant, Appelbaum Laboratory__
+  * University of Maryland, College Park, MD  
+  * _June 2010 - August 2010_
 
+***
+
+### Skills/Languages
+
+* __Languages:__ Java, Python, Ruby/Rails, Javascript, HTML, CSS, SQL
+* __Tools:__ Git, Matlab, Mathematica, SciPy, IPython, Numpy
+
+***
 
 ### Awards
 
-Jeffrey O. Kephart '80 Prize in Engineering Physics  
-Princeton University School of Engineering and Applied Science  
-June 2013  
-Awarded to the top student in the Engineering Physics Program  
+* __Jeffrey O. Kephart '80 Prize in Engineering Physics__
+  * Princeton University School of Engineering and Applied Science  
+  * _June 2013_
+    * Awarded to the top student in the Engineering Physics Program  
 
-ExxonMobil Award for Outstanding Design Project  
-Princeton University Chemical Engineering Department  
-June 2013  
-Presented to the team of students in the graduating class that demonstrates excellence in the open-ended project of the capstone design course
+<p></p>
+* __ExxonMobil Award for Outstanding Design Project__
+  * Princeton University Chemical Engineering Department  
+  * _June 2013_
+    * Presented to the team of students in the graduating class that demonstrates excellence in the open-ended project of the capstone design course
 
-Manfred Pyka Memorial Prize in Physics  
-Princeton University Physics Department  
-June 2010  
-Recognizes outstanding Physics undergraduates who have shown excellence in course work and promise in independent research
+<p></p>
+* __Manfred Pyka Memorial Prize in Physics__
+  * Princeton University Physics Department  
+  * _June 2010_
+    * Recognizes outstanding Physics undergraduates who have shown excellence in course work and promise in independent research
 
