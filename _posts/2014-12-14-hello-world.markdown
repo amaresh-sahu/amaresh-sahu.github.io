@@ -2,7 +2,6 @@
 layout: post
 title:  "'hello, world!' (and where it came from)"
 date:   2014-12-14 14:27:01
-categories: cs
 ---
 
 Any time you learn a new programming language, the first program you write will output the phrase ['hello, world!'](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program) (or some variation of it) to the screen. This is one of the simplest programs you can write, and getting it to work means that everything going on 'under the hood' (compiler & environments) is also working. But this is true for any program that outputs text. I wanted to find out what was so special about the phrase 'hello, world!', where it came from, and why it is ubiquitous in the world of computer science.
