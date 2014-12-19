@@ -9,12 +9,14 @@ title: "Blog"
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <h2>
-          <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      {% unless post.draft %}
+        <li>
+          <h2>
+            <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </li>
+      {% endunless %}
     {% endfor %}
   </ul>
 
