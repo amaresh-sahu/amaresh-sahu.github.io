@@ -13,7 +13,7 @@ When I started undergrad, I was one of those engineers who thought they had reli
 
 > Dirac quote explaining why science trumps religion
 
-Luckily, my views on this matter were constantly challenged as I came into contact with people of very different backgrounds. I still kept my views mostly the same, but perhaps became a little less harsh in criticizing religion. I realized it gave people a way of life, which I respected even though I still thought it inferior to science.
+Luckily, my views on this matter were constantly challenged as I came into contact with people of very different backgrounds. My views remained mostly intact, but became a little less harsh in criticizing religion. I realized it gave people a way of life, which I respected despite still thinking it was inferior to science.
 
 Then, once I graduated college, my perspecties on these ideas changed. It was a combination of traveling across Europe that summer and at the same time reading _The Pleasure of Finding Things Out_ by Richard Feynman. Feynman talked about religion in a way different to what I had ever thought of, and it was inspring to think about these ideas as I was visiting famous, historical churches all over Europe. It felt as though my mind was expanding as the trip went on, and I finished the book while still in Europe.
 
