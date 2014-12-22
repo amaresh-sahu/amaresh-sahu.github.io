@@ -9,6 +9,14 @@ To come: some of my thoughts on science, religion, and how my understanding of t
 
 ***
 
-When I started undergrad, I was one of those engineers who thought science and math were everything and the humanities were a waste of time. I had found history and English incredibly boring in high school, and I had no intention of wasting my precious college years studying subjects only related to humans while I could instead be focusing on Mother Nature and _her_ beautiful history, encompassing 13.8 billion years and the entire universe.
+When I started undergrad, I was one of those engineers who thought they had religion all figured out. I was a _scientist_, after all, and I believed in studying nature to figure out the unknown. To me, religion was a thing of the past - something people used to understand the world before they could use science to explain it. My views were pretty strongly aligned with those of [Paul Dirac](https://www.wikipedia.org/Paul_Dirac), who has some rather [strong opinions](https://www.wikiquote.org/Paul_Dirac) on the matter. I found this one particularly appealing:
 
-My attitude was pretty clearly reflected in what I did and who I hung out with. Most of my best friends were STEM majors, and I only was interested in math and science classes. I took some economics to satisfy half of my humanities requirements, because they were based on some simple math and so I didn't have to spend much time on them.
+> Dirac quote explaining why science trumps religion
+
+Luckily, my views on this matter were constantly challenged as I came into contact with people of very different backgrounds. I still kept my views mostly the same, but perhaps became a little less harsh in criticizing religion. I realized it gave people a way of life, which I respected even though I still thought it inferior to science.
+
+Then, once I graduated college, my perspecties on these ideas changed. It was a combination of traveling across Europe that summer and at the same time reading _The Pleasure of Finding Things Out_ by Richard Feynman. Feynman talked about religion in a way different to what I had ever thought of, and it was inspring to think about these ideas as I was visiting famous, historical churches all over Europe. It felt as though my mind was expanding as the trip went on, and I finished the book while still in Europe.
+
+Include some things about what the book actually said.
+
+I'm really glad that these things (Euroepe and book) happened at the same time, and then describe some of my current views on the matter.
