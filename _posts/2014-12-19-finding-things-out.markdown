@@ -9,7 +9,7 @@ To come: some of my thoughts on science, religion, and how my understanding of t
 
 ***
 
-When I started undergrad, I was one of those engineers who thought they had religion all figured out. I was a _scientist_, after all, and I believed in studying nature to figure out the unknown. To me, religion was a thing of the past - something people used to understand the world before they could use science to explain it. My views were pretty strongly aligned with those of [Paul Dirac](https://www.wikipedia.org/Paul_Dirac), who has some rather [strong opinions](https://www.wikiquote.org/Paul_Dirac) on the matter. I found this one particularly appealing:
+When I started undergrad, I was one of those engineers who thought they had religion all figured out. I was a _scientist_, after all, and I believed in studying nature to figure out the unknown. To me, religion was a thing of the past - something people used to understand the world before they could use science to explain it. I felt particularly strongly about the following sentiment of [Paul Dirac](https://www.wikipedia.org/Paul_Dirac), the brilliant 20th century theoretical physicist:
 
 > Dirac quote explaining why science trumps religion
 
