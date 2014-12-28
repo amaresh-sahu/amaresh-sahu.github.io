@@ -5,18 +5,36 @@ date:   2014-12-19 17:00:00
 draft: true
 ---
 
-To come: some of my thoughts on science, religion, and how my understanding of them grew as I read _The Pleasure of Finding Things Out_ while I was galavanting across Europe the summer after college.
+This post is inspired by my wonderful experience reading [_The Pleasure of Finding Things Out_](http://www.amazon.com/The-Pleasure-Finding-Things-Out/dp/0465023959), by [Richard Feynman](http://en.wikipedia.org/wiki/Richard_Feynman), as I traveled across Europe for the first time. The setting here was crucial: being a tourist in Europe means you go to a lot of historic churches, and doing so while reading about a scientist's point of view on religion was truly fascinating.
 
-***
+Before college: very pro-science, didn't believe in religion (myself) and didn't see its use to society
 
-When I started undergrad, I was one of those engineers who thought they had religion all figured out. I was a _scientist_, after all, and I believed in studying nature to figure out the unknown. To me, religion was a thing of the past - something people used to understand the world before they could use science to explain it. I felt particularly strongly about the following sentiment of [Paul Dirac](https://www.wikipedia.org/Paul_Dirac), the brilliant 20th century theoretical physicist:
+During college: still pro-science, still didn't believe in religion (myself) but was less strong. Could see possibilities where there is a good, saw that science didn't disprove religion, etc
 
-> Dirac quote explaining why science trumps religion
+During Europe trip: starting reading this book, and visited many famous places that were heavily influenced by religion. Ex: sagrada familia, duomo, etc. Saw how amazing these places were, and realized that none of this could have happened w/o religion. Gained a new respect for its ability to inspire people, even though I didn't think it was any more true
 
-Luckily, my views on this matter were constantly challenged as I came into contact with people of very different backgrounds. My views remained mostly intact, but became a little less harsh in criticizing religion. I realized it gave people a way of life, which I respected despite still thinking it was inferior to science.
+What I believe now:
 
-Then, once I graduated college, my perspecties on these ideas changed. It was a combination of traveling across Europe that summer and at the same time reading _The Pleasure of Finding Things Out_ by Richard Feynman. Feynman talked about religion in a way different to what I had ever thought of, and it was inspring to think about these ideas as I was visiting famous, historical churches all over Europe. It felt as though my mind was expanding as the trip went on, and I finished the book while still in Europe.
+Science is the right way to do things. We should try to get people as inspired from science as people used to be from religion. Certainly a difficult task. Also important in understanding other people's behavior re: religion.
 
-Include some things about what the book actually said.
+<!---
 
-I'm really glad that these things (Euroepe and book) happened at the same time, and then describe some of my current views on the matter.
+# Possible Quotes:
+
+> The remark which I read somewhere, that science is all right so long as it doesn't attack religion, was the clue that I needed to understand the problem
+
+> The old problems, such as the relation of science and religion... are not often publicly discussed because of the limitations of specialization
+
+> I didn't have much patience with what's called the humanities, even though in the university there were humanities that you had to take
+
+> So altogether I can't believe these special stories that have been made up about our relationship to the universe at large
+
+> I can live with doubt and uncertainty... I think it's much more interesting to live not knowing than to have answers which might be wrong
+
+> In religion, the moral lessons are taught, but they are not just taught once - you are inspired again and again
+
+> So the question changes a little bit from "Is there a God?" to "How sure is it that there is a God?"
+
+> [Religion] gives inspiration not only for moral conduct - it gives inspiration for the arts and for all kinds of great throughts and actions as well
+
+-->
