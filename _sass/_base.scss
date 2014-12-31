@@ -189,8 +189,10 @@ pre {
     padding-top: $footnote-padding-top;
     margin-top: $footnote-margin-top;
     margin-bottom: $footnote-margin-bottom;
+    font-size: $footnote-font-size;
 }
 
+// from http://css-tricks.com/snippets/css/prevent-superscripts-and-subscripts-from-affecting-line-height/
 sup, sub {
    vertical-align: baseline;
    position: relative;
