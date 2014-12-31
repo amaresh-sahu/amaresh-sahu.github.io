@@ -5,7 +5,7 @@ date:   2014-12-19 17:00:00
 draft: true
 ---
 
-This post is inspired by my wonderful experience reading [_The Pleasure of Finding Things Out_](http://www.amazon.com/The-Pleasure-Finding-Things-Out/dp/0465023959), by [Richard Feynman](http://en.wikipedia.org/wiki/Richard_Feynman), while I traveled across Europe for the first time. The setting was crucial: being a tourist in Europe means going to a lot of historic churches, and doing so while reading a physicist's thoughts on religion was truly fascinating.
+This post is inspired by my wonderful experience reading [_The Pleasure of Finding Things Out_](http://www.amazon.com/The-Pleasure-Finding-Things-Out/dp/0465023959), by [Richard Feynman](http://en.wikipedia.org/wiki/Richard_Feynman), while I traveled across Europe for the first time. The setting was crucial: being a tourist in Europe means going to a lot of historic churches, and doing so while reading a physicist's thoughts on religion was truly fascinating[^religion-intro].
 
 Before this trip, my views on religion and how it relates to science were pretty similar to those of a stereotypical engineer. While I hope that many late-night discussions in college added some nuance to my beliefs, I generally felt that religion was a waste of people's time. I believed in the scientific way of thinking: continually questioning what you believe, because nothing is known with absolute certainty. Any system that taught people otherwise was contradicting the scientific way of thinking, and thus I believed religion to be unimportant.
 
@@ -15,12 +15,14 @@ My intermittent reading continued between a visit to the [Sistine Chapel](http:/
 
 And then something wonderful happened. I finished the book, and the last chapter - 'The Relation of Science and Religion' - miraculously explaned the difficulty I was having. Feynman explains that there are three main components of religion: metaphysical, moral, and inspirational. The metaphysical aspect deals with why we are here and what God is like, and its stubborn and unchanging viewpoints are the reason I dislike religion. But the inspirational component, which I had completely overlooked until this trip, explains how all these beautiful buildings were made. Inspiration is closely tied to the metaphysics, because people must work for God and feel close to him in order to be most inspired. And perhaps its closeness to metaphysics is why I didn't notice it at all.
 
-To this day, I believe almost all of Feynman's conclusions about religion. I maintain that the metaphysical component is unscientific, but I now have a very strong appreciation for religion's ability to inspire. It is important for people who are non-religious to find other ways to be inspired, because it is this inspiration that pushes humanity forward.
+To this day, I believe almost all of Feynman's conclusions about religion[^tradition]. I maintain that the metaphysical component is unscientific, but I now have a very strong appreciation for religion's ability to inspire. It is important for people who are non-religious to find other ways to be inspired, because it is this inspiration that pushes humanity forward.
 
 For now, I feel inspired learning from great scientists like Feynman, and I'm incredibly grateful to have picked up his book at the perfect time. It was, honestly, quite the pleasure to find these things out.
 
 
+[^religion-intro]: While the book talks about much more than just religion, this is what I will focus on in the post. Furthermore, when I use the term 'religion' I assume this involves worship of one or more deities.
 
+[^tradition]: I would include a fourth major component, that of tradition. Religion can play a major role during significant events (birth, marriage, and death) in addition to affecting daily or weekly routines (individual and group prayer).
 
 
 <!---
