@@ -181,6 +181,23 @@ pre {
 }
 
 
+/**
+ * Footnotes
+ */
+.footnotes {
+    border-top: 1px solid $text-grey-light;
+    padding-top: $footnote-padding-top;
+    margin-top: $footnote-margin-top;
+    margin-bottom: $footnote-margin-bottom;
+}
+
+sup, sub {
+   vertical-align: baseline;
+   position: relative;
+   top: -0.4em;
+}
+sub { top: 0.4em; }
+
 
 /**
  * Icons
