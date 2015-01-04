@@ -2,7 +2,6 @@
 layout: post
 title:  "The Pleasure of Finding (Some) Things Out"
 date:   2014-12-19 17:00:00
-draft: true
 ---
 
 This post is inspired by my wonderful experience reading [_The Pleasure of Finding Things Out_](http://www.amazon.com/The-Pleasure-Finding-Things-Out/dp/0465023959), by [Richard Feynman](http://en.wikipedia.org/wiki/Richard_Feynman), while I traveled across Europe for the first time. The setting was crucial: being a tourist in Europe means going to a lot of historic churches, and doing so while reading a physicist's thoughts on religion was truly fascinating[^religion-intro].
