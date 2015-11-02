@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Career Musings"
+date:   2015-11-02 17:00:00
+---
+
+In a couple of hours I'll walk into the [Redfin](https://www.redfin.com/) headquarters in San Francisco, as I have been for just over a year, for the first time as a software developer. It's been just shy of 500 days since I quite my job at the [Susquehanna International Group (SIG)](http://sig.com/), and I sure didn't expect it to take this long - but the crazy ride I've been on has been a lot of fun, and I'm happy with how things eventually turned out.
+
+For starters, I quit my job at SIG because I could no longer stand spending all of my time thinking about money. I decided to be a software engineer at a startup because I wanted to write code that would immediately impact thousands, if not millions, of people. I started preparing for interviews immediately, but my first three final round ones all ended in rejection. I worked on some personal projects to improve my skills, and by the time my next final round interview was set I told the recruiter to book me a one-way ticket to San Francisco. I wasn't leaving until I found a job.
+
+To anyone looking for a job in tech, I highly recommend doing the same thing. Find some friends to crash with and talk to as many companies as you can - I probably talked to ten in the first two weeks after I landed. I ended up learning a ton about startups in the process, and realized that I didn't just want to work with smart people. I wanted a company with a mission I believed in, and a culture I respected. Most of the companies I talked to had a set spiel about how they had really smart people or were going to change the world - but on looking at their product and talking to them face-to-face, I'd realize that either their mission or their culture just wasn't very inspiring. That's why even though the software test position at Redfin wasn't the developer role I desired, I went with it anyway. The culture at Redfin is simply amazing, and I knew they had a mission that I could really get behind.
+
+The road from software test engineer to software developer has sure been a long one, but one that gave me the opportunity to grow into a role I otherwise would have been unprepared for. From writing test code to reading articles to going to tech talks, I've enjoyed working to become a better coder. I know that I'm now going to have to work harder than ever to become a great developer, but I'm super excited that I have the privelege to do so. From leaving SIG almost 500 days ago, I'm so grateful to have made this transition at a company I believe in - and I look forward to seeing where this road will take me.
