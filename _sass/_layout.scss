@@ -11,8 +11,10 @@
 }
 
 .site-title {
-    font-style: italic;
+    
     font-family: $site-title-font-family;
+    text-transform: $site-title-text-transform;
+    font-weight: $site-title-font-weight;
     font-size: $site-title-font-size;
     line-height: $site-title-line-height;
     letter-spacing: $site-title-letter-spacing;
@@ -248,6 +250,7 @@
     letter-spacing: $post-title-letter-spacing;
     line-height: $post-title-line-height;
     color: $post-title-font-color;
+    margin-bottom: $post-title-margin-bottom;
 
     @include media-query($on-laptop) {
         font-size: $post-title-font-size;

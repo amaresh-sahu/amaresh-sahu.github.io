@@ -44,20 +44,21 @@ $base-line-height: 1.9;
 
 // site-header
 
-$site-header-padding-top: 60px;
-$site-header-padding-bottom: 40px;
+$site-header-padding-top: 70px;
+$site-header-padding-bottom: 45px;
 
 
 
 // site-title
 
-$site-title-font-family: 'Vollkorn', serif;
-$site-title-font-size: 44px;
+$site-title-font-family: 'Lato', sans-serif;
+$site-title-font-weight: 400;
+$site-title-font-size: 25px;
 $site-title-line-height: 56px;
-$site-title-letter-spacing: -1px;
+$site-title-letter-spacing: 0px;
 $site-title-margin-bottom: 0;
 $site-title-float: left;
-$site-title-font-variant: small-caps;
+$site-title-text-transform: uppercase;
 $site-title-color: $text-grey-white;
 $site-title-hover-color: $text-grey-dark-white;
 
@@ -66,7 +67,7 @@ $site-title-hover-color: $text-grey-dark-white;
 // site-footer
 
 $site-footer-padding-top: 70px;
-$site-footer-padding-bottom: 120px;
+$site-footer-padding-bottom: 170px;
 $site-footer-font-size: 30px;
 $site-footer-icon-spacing: 5px;
 $site-footer-margin-bottom: 22px;
@@ -88,26 +89,27 @@ $site-nav-font-hover-color: $orange-color-medium;
 
 // post-title
 
-$post-title-font-family: 'Lato', sans-serif;
+$post-title-font-family: 'Gentium Book Basic', serif;
 $post-title-font-weight: 400;
 $post-title-home-font-size: 19px;
-$post-title-font-size: 34px;
-$post-title-letter-spacing: -1px;
+$post-title-font-size: 44px;
+$post-title-letter-spacing: -0.5px;
 $post-title-line-height: 1;
 $post-title-font-color: $text-grey-dark-white;
+$post-title-margin-bottom: 0px;
 
 
 
 // page
 
-$page-content-padding-top: 95px;
+$page-content-padding-top: 115px;
 $page-content-padding-bottom: 87px;
 
 
 
 // post-list
 
-$post-list-margin-left: 2cm;
+$post-list-margin-left: 0px;
 $post-list-margin-bottom: 22px;
 
 
@@ -140,7 +142,7 @@ $rss-font-family: 'PT Sans', sans-serif;
 // post-header
 
 $post-header-margin-bottom: 44px;
-$post-header-padding-left: 5px;
+$post-header-padding-left: 0px;
 
 
 
