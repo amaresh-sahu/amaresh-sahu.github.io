@@ -17,9 +17,14 @@ permalink: /cv/
 
 ### Professional Experience
 
+* __Software Developer, Redfin__  
+  * San Francisco, CA
+  * _November 2015 - Present_
+
+<p></p>
 * __Software Test Engineer, Redfin__  
   * San Francisco, CA
-  * _October 2014 - Present_
+  * _October 2014 - October 2015_
 
 <p></p>
 * __Assistant Trader, Susquehanna International Group__
