@@ -18,8 +18,8 @@ body {
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
-    color: $text-grey-white;
-    background-color: $background-color-dark;
+    color: $text-color;
+    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -89,12 +89,12 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $orange-color-light;
+    color: $brand-color;
     text-decoration: none;
+	font-weight: 400;
 
     &:hover {
-        color: $orange-color-medium;
-        //text-decoration: underline;
+		color: $brand-color-light;
     }
 }
 
@@ -104,13 +104,14 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $text-grey-dark-white;
-    text-align: center;
-    //border-left: 4px solid $text-grey-light;
+    color: $grey-color-slightly-dark;
+    border-left: 4px solid $background-color-medium;
     padding-left: $spacing-unit / 2;
     font-size: 26px;
     letter-spacing: -1px;
     font-style: italic;
+	text-align: center;
+
     > :last-child {
         margin-bottom: 0;
     }
@@ -124,7 +125,7 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $text-grey-light;
+    border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
 }
@@ -181,25 +182,6 @@ pre {
 }
 
 
-/**
- * Footnotes
- */
-.footnotes {
-    border-top: 1px solid $text-grey-light;
-    padding-top: $footnote-padding-top;
-    margin-top: $footnote-margin-top;
-    margin-bottom: $footnote-margin-bottom;
-    font-size: $footnote-font-size;
-}
-
-// from http://css-tricks.com/snippets/css/prevent-superscripts-and-subscripts-from-affecting-line-height/
-sup, sub {
-   vertical-align: baseline;
-   position: relative;
-   top: -0.4em;
-}
-sub { top: 0.4em; }
-
 
 /**
  * Icons
@@ -213,46 +195,7 @@ sub { top: 0.4em; }
         vertical-align: middle;
 
         path {
-            fill: $orange-color-medium;
+            fill: $grey-color;
         }
     }
-}
-
-
-@font-face {
-    font-family: 'icomoon';
-    src:url('../fonts/icomoon.eot?gogvxe');
-    src:url('../fonts/icomoon.eot?#iefixgogvxe') format('embedded-opentype'),
-        url('../fonts/icomoon.woff?gogvxe') format('woff'),
-        url('../fonts/icomoon.ttf?gogvxe') format('truetype'),
-        url('../fonts/icomoon.svg?gogvxe#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-    font-family: 'icomoon';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-github17:before {
-    content: "\e600";
-}
-.icon-gmail3:before {
-    content: "\e601";
-}
-.icon-linkedin9:before {
-    content: "\e602";
-}
-.icon-twitter8:before {
-    content: "\e603";
 }

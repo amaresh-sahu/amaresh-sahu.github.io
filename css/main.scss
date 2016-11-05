@@ -6,168 +6,32 @@
 
 
 // Our variables
-
-
-// spacing
-
-$spacing-unit:     44px;
-
-
-
-// color
-$orange-color: 			lighten(#F87217, 4%);
-$orange-color-medium: 	#F87217;
-$orange-color-light: 	lighten($orange-color, 8%);
-$orange-color-dark: 	darken($orange-color, 20%);
-
-$text-grey-white: 		#fdfdfd;
-$text-grey-dark-white:	darken($text-grey-white, 15%);
-$text-grey-medium:		#828282;
-$text-grey-light:		lighten($text-grey-medium, 20%);
-$text-grey-dark:		darken($text-grey-medium, 35%);
-
-$background-color-dark:		darken($text-grey-medium, 35%);
-$background-color-light:	darken($text-grey-medium, 30%);
-
-$code-default-font-color: $text-grey-dark;
-
-
-
-// base
-
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   19px;
+$base-font-family: 'Lato', Arial, sans-serif;
+$base-font-size:   20px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.9;
+$base-line-height: 1.5;
+
+$spacing-unit:     40px;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-medium-light: lighten($grey-color, 15%);
+$grey-color-slightly-dark: darken($grey-color, 5%);
+$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-extra-dark: darken($grey-color, 45%);
+
+$text-color:       				#111;
+$background-color-light: 		lighten(#828282, 46%); //#fdfdfd;
+$background-color-medium-light: lighten(#828282, 44.5%);
+$background-color-medium:		lighten(#828282, 39.5%);
+$background-color-dark:			darken(#828282, 40%);
 
 
-
-// site-header
-
-$site-header-padding-top: 70px;
-$site-header-padding-bottom: 45px;
-
-
-
-// site-title
-
-$site-title-font-family: 'Lato', sans-serif;
-$site-title-font-weight: 400;
-$site-title-font-size: 25px;
-$site-title-line-height: 56px;
-$site-title-letter-spacing: 0px;
-$site-title-margin-bottom: 0;
-$site-title-float: left;
-$site-title-text-transform: uppercase;
-$site-title-color: $text-grey-white;
-$site-title-hover-color: $text-grey-dark-white;
-
-
-
-// site-footer
-
-$site-footer-padding-top: 70px;
-$site-footer-padding-bottom: 170px;
-$site-footer-font-size: 30px;
-$site-footer-icon-spacing: 5px;
-$site-footer-margin-bottom: 22px;
-$site-footer-font-color: $text-grey-white;
-$site-footer-font-color-hover: $text-grey-light;
-
-
-
-// site-nav
-
-$site-nav-font-family: 'Lato', sans-serif;
-$site-nav-line-height: 56px;
-$site-nav-font-size: 20px;
-$site-nav-font-color: $orange-color-light;
-$site-nav-word-gap: 45px;
-$site-nav-font-hover-color: $orange-color-medium;
-
-
-
-// post-title
-
-$post-title-font-family: 'Gentium Book Basic', serif;
-$post-title-font-weight: 400;
-$post-title-home-font-size: 19px;
-$post-title-font-size: 44px;
-$post-title-letter-spacing: -0.5px;
-$post-title-line-height: 1;
-$post-title-font-color: $text-grey-dark-white;
-$post-title-margin-bottom: 0px;
-
-
-
-// page
-
-$page-content-padding-top: 115px;
-$page-content-padding-bottom: 87px;
-
-
-
-// post-list
-
-$post-list-margin-left: 0px;
-$post-list-margin-bottom: 22px;
-
-
-
-// post-meta
-
-$post-meta-font-size: 17px;
-$post-meta-font-color: $text-grey-light;
-$post-meta-padding-right: 35px;
-$post-meta-font-family: 'Lato', sans-serif;
-$post-meta-font-weight: 300;
-
-
-
-// post-link
-
-$post-link-font-size: 29px;
-$post-link-font-family: 'Gentium Book Basic', serif;
-$post-link-font-style: italic;
-
-
-
-// rss
-
-$rss-padding-top: 62px;
-$rss-font-family: 'PT Sans', sans-serif;
-
-
-
-// post-header
-
-$post-header-margin-bottom: 44px;
-$post-header-padding-left: 0px;
-
-
-
-// post-content
-
-$post-content-margin-bottom: 44px;
-$post-content-font-family: 'Gentium Book Basic', serif;
-$post-line-height: 1.5;
-
-
-
-// cv-content
-
-$cv-content-font-weight: 700;
-$cv-font-size: 19px;
-
-
-
-// footnote
-
-$footnote-margin-top: 82px;
-$footnote-margin-bottom: 22px;
-$footnote-padding-top: 55px;
-$footnote-font-size: $base-font-size*.9;
-
+// this is the default background color, but generally when styling
+// use one of the above colors - or create a new one.
+$background-color: 	$background-color-light;
+$brand-color:      	darken(#ff4500, 15%);
+$brand-color-light:	darken(#ff4500,4%);
 
 
 $on-palm:          600px;
@@ -196,50 +60,3 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
-
-
-// Fonts from Icomoon
-
-@font-face {
-	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?-k4fwhg');
-	src:url('../fonts/icomoon.eot?#iefix-k4fwhg') format('embedded-opentype'),
-		url('../fonts/icomoon.woff?-k4fwhg') format('woff'),
-		url('../fonts/icomoon.ttf?-k4fwhg') format('truetype'),
-		url('../fonts/icomoon.svg?-k4fwhg#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.icon-wifi13:before {
-	content: "\e605";
-}
-.icon-home78:before {
-	content: "\e604";
-}
-.icon-github17:before {
-	content: "\e600";
-}
-.icon-gmail3:before {
-	content: "\e601";
-}
-.icon-linkedin9:before {
-	content: "\e602";
-}
-.icon-twitter8:before {
-	content: "\e603";
-}

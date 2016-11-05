@@ -1,13 +1,18 @@
 # Site settings
 title: Amaresh Sahu
-email: amaresh.sahu07@gmail.com
+email: amaresh.sahu@berkeley.edu
 description: > # this means to ignore newlines until "baseurl:"
-  A personal blog.
+  Amaresh Sahu's personal website. Currently a chemical engineering PhD
+  Candidate at UC Berkeley, using irreversible thermodynamics, statistical
+  mechanics, and continuum mechanics to model the biological cell membrane.
+  Previous software engineer (Android developer) and equity derivatives trader
+  (finance).
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://amaresh-sahu.github.io" # the base hostname & protocol for your site
-twitter_username: paparesh
-github_username:  amaresh-sahu
+url: "http://amaresh-sahu.github.io/" # the base hostname & protocol for your site
+# twitter_username: paparesh
+# github_username:  amaresh-sahu
+# linkedin_username: amaresh-sahu-0735ab96
+# linkedin_link: amaresh-sahu
 
 # Build settings
 markdown: kramdown
-highlighter: pygments

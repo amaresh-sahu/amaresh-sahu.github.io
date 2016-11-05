@@ -1,25 +1,46 @@
 ---
-layout: default
-title: "Blog"
+layout: index
 ---
 
-<div class="home">
+<div class="home-page">
 
-  <!--<h1 class="page-heading">Posts</h1>-->
+	<div class="intro">
+		<img src="/assets/circle-profile-medium.png" alt="Amaresh Sahu">
+		<h1>
+			I'm a first year chemical engineering <br> PhD student at UC Berkeley
+		</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      {% unless post.draft %}
-        <li>
-          <h2>
-            <span class="post-meta">{{ post.date | date: "%d %b %Y" }}</span>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-        </li>
-      {% endunless %}
-    {% endfor %}
-  </ul>
+		<a href="/research/" class="primary-button">
+			Research
+		</a>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+		<a href="/about/" class="secondary-button">
+			About Me
+		</a>
+
+	</div>
+
+	<div class="page-content">
+		<div class="wrapper">
+			<div class="recent-activity">
+				<h1>
+					Recent Activity
+				</h1>
+
+				<ul class="post-list">
+					{% for post in site.posts %}
+						{% unless post.draft %}
+							<li>
+								<h2>
+									<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+									<span class="post-meta">{{ post.date | date: "%d %b %Y" }}</span>
+								</h2>
+							</li>
+						{% endunless %}
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
 
 </div>

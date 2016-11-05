@@ -1,20 +1,13 @@
 ---
 layout: page
-title: "About"
+title: About
 permalink: /about/
 ---
 
-I'm a software developer at [Redfin](https://www.redfin.com/), a real-estate startup in San Francisco that is using technology to change how people buy and sell homes. Before Redfin, I was an assistant trader at the [Susquehanna International Group (SIG)](http://www.sig.com/quantitative-trading/), in the business of playing with money to make more money. Before SIG, I studied chemical engineering and physics at Princeton University. 
+I'm a first year chemical engineering Ph.D. student at UC Berkeley, advised by [Dr. Kranthi Mandadapu](http://www.cchem.berkeley.edu/kranthi/){:target="_blank"}. We are currently working on developing a comprehensive theoretical treatment of the cell membrane, using both continuum and statistical mechanics. My research is generously supported by the Department of Energy's [Computational Science Graduate Fellowship](https://www.krellinst.org/csgf/about-doe-csgf){:target="_blank"}. You can learn more about my research interests [here](/research/).
 
-Outside of work, I'm interested in learning more physics, anything Elon Musk related, and better understanding why people make the decisions they do. I was one of the top junior table tennis players in the country, representing the U.S. nationally and internationally as part of the 15 & Under team and winning many titles at the U.S. National Championships and Junior Olympics.
+I completed my undergraduate studies at Princeton University, where I received a Bachelor of Science in chemical engineering with minors in engineering physics and applied math. My senior thesis was advised by [Dr. Howard Stone](http://mae.princeton.edu/people/faculty/stone){:target="_blank"}, and focused on developing fuel cells that used bacteria to catalyze electricity generation. If you're interested, part of this research was [published](http://dx.doi.org/10.1039/c4cp01086h){:target="_blank"}.
 
+Between Princeton and Berkeley, I worked in industry for three years -- one as an equity derivatives trader at the [Susquehanna International Group](http://sig.com/){:target="_blank"}, and two as a software engineer at [Redfin](https://www.redfin.com/){:target="_blank"}, a late-stage real estate startup. I highly recommend using Redfin if you're planning on buying or selling a home, and [here's why](https://www.redfin.com/why-redfin){:target="_blank"}.
 
-
-
-<!---
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
--->
+My time in the technology sector strengthened my passion for the [open-source movement](https://en.wikipedia.org/wiki/Open-source_movement){:target="_blank"}, and I bring this attitude with me into science. I share all of my results freely through a combination of pushing pre-prints to the [Arxiv](https://arxiv.org/help/primer){:target="_blank"} and publishing in open-access journals. 
