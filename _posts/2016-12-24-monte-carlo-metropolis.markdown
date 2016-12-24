@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Metropolis algorithm and Monte Carlo methods in statistical mechanics"
-date:   2016-11-25 08:00:00
+date:   2016-12-24 08:00:00
 ---
 
 The following are introductory notes on how a [Monte Carlo method](https://en.wikipedia.org/wiki/Monte_Carlo_method){:target="_blank"}, namely the [Metropolis algorithm](https://en.wikipedia.org/wiki/Metropolis-Hastings_algorithm){:target="_blank"}, is used in statistical mechanics. They are based on [Professor Carlo Carraro](https://maboudianlab.berkeley.edu/group-members/carlo-carraro/){:target="_blank"}'s lectures at UC Berkeley, which in turn are based on the eight chapter of [Computational Physics](https://www.amazon.com/Computational-Physics-Fortran-Steven-Koonin/dp/0201386232){:target="_blank"} by Steven E. Koonin, which may be found online [here](http://hep.fcfm.buap.mx/cursos/2010/MNA/computational-physics.pdf){:target="_blank"}.
