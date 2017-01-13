@@ -21,7 +21,7 @@ For our purposes in statistical mechanics, Monte Carlo methods are a practical w
 
 * volume $$V$$
 
-* [thermal wavelength](https://en.wikipedia.org/wiki/Thermal_de_Broglie_wavelength){:target="_blank"} $$\lambda = 2 \pi \hbar / \sqrt{m k_B T}$$ .
+* [thermal wavelength](https://en.wikipedia.org/wiki/Thermal_de_Broglie_wavelength){:target="_blank"} $$\lambda = \sqrt{ 2 \pi \hbar^2 /m k_B T}$$ .
 
 The partition function $$Z$$ is given by
 
