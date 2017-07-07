@@ -40,7 +40,7 @@
     }
 
     .page-link {
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 400;
         text-transform: uppercase;
         color: $text-color;
@@ -301,11 +301,11 @@
 
         .primary-button {
             margin-left: 12px;
-            margin-right: 12px;
-            padding: 7px 25px;
+            margin-right: 16px;
+            padding: 9px 25px;
             border-radius: 25px;
 			border: 1px solid $grey-color;
-            font-size: 13px;
+            font-size: 17px;
             font-weight: 700;
             text-transform: uppercase;
             color: white;
@@ -318,12 +318,12 @@
         }
 
         .secondary-button {
-            margin-left: 12px;
+            margin-left: 16px;
             margin-right: 12px;
-            padding: 7px 25px;
+            padding: 9px 25px;
             border-radius: 25px;
             border: 1px solid $grey-color;
-            font-size: 13px;
+            font-size: 17px;
             font-weight: 700;
             text-transform: uppercase;
             color: $grey-color;
