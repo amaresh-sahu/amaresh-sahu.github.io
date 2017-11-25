@@ -6,38 +6,30 @@ layout: index
 
 	<div class="intro">
 		<img src="/assets/circle-profile-medium.png" alt="Amaresh Sahu">
-		<h1>
-			I'm a second year chemical engineering <br> PhD student at UC Berkeley
-		</h1>
-
-		<a href="/research/" class="primary-button">
-			Research
-		</a>
-
-		<a href="/about/" class="secondary-button">
-			About Me
-		</a>
-
+		<p>
+			I'm a second year chemical engineering PhD student at UC Berkeley
+		</p>
 	</div>
 
 	<div class="page-content">
 		<div class="wrapper">
-			<div class="recent-activity">
+			<div class="publications">
 				<h1>
-					Recent Activity
+					Publications
 				</h1>
-
 				<ul class="post-list">
-					{% for post in site.posts %}
-						{% unless post.draft %}
-							<li>
-								<h2>
-									<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-									<span class="post-meta">{{ post.date | date: "%d %b %Y" }}</span>
-								</h2>
-							</li>
-						{% endunless %}
-					{% endfor %}
+					<li>
+						<p>
+						<a href="https://arxiv.org/abs/1701.06495" target="_blank">
+							The irreversible thermodynamics of curved lipid membranes</a><br />
+						<em>Physical Review E</em>, 2017</p>
+					</li>
+					<li>
+						<p>
+						<a href="http://dx.doi.org/10.1039/c4cp01086h" target="_blank">
+							Flow dependent performance of microfluidic microbial fuel cells</a><br />
+						<em>Physical Chemistry Chemical Physics</em>, 2014</p>
+					</li>
 				</ul>
 			</div>
 		</div>

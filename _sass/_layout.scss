@@ -172,7 +172,8 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    //padding: $spacing-unit 0;
+	margin-left: 300px;
     font-weight: 300;
 }
 
@@ -181,11 +182,11 @@
 }
 
 .post-list {
-    margin-left: 0;
+    //margin-left: 0;
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        //margin-bottom: $spacing-unit;
     }
 }
 
@@ -275,74 +276,42 @@
 
 	background-color: $background-color;
 
+	p {
+		font-size: 18px;
+	}
+
+	h1 {
+		font-size: 25px;
+		font-weight: 400;
+		color: $grey-color-dark;
+	}
+
     .intro {
 
-        h1 {    
-            font-size: 24px;
-            margin-bottom: 38px;
-        }
+		width: 6 * $spacing-unit;
+		float: left;
 
 		img {
-			margin-bottom: 1.5 * $spacing-unit;
-			width: 200px;
+			margin-bottom: 1.0 * $spacing-unit;
+			margin-left: 1 * $spacing-unit;
+			width: 4 * $spacing-unit;
 		}
 
-        text-align: center;
-        padding-top: 3.25 * $spacing-unit;
+        text-align: left;
+        padding-top: 1.25 * $spacing-unit;
         padding-bottom: 3.75 * $spacing-unit;
-        background-color: $background-color-medium;
+		padding-left: 2.0 * $spacing-unit;
+		padding-right: 0.0 * $spacing-unit;
+        //background-color: $background-color-medium;
 
 		@include media-query($on-palm) {
 			padding-top: 2 * $spacing-unit;
 			padding-bottom: 2.5 * $spacing-unit;
 		}
-
-        .primary-button {
-            margin-left: 12px;
-            margin-right: 16px;
-            padding: 9px 25px;
-            border-radius: 25px;
-			border: 1px solid $grey-color;
-            font-size: 17px;
-            font-weight: 700;
-            text-transform: uppercase;
-            color: white;
-            text-decoration: none;
-            background: $grey-color;
-
-			&:hover{
-				background: $grey-color-slightly-dark;
-			}
-        }
-
-        .secondary-button {
-            margin-left: 16px;
-            margin-right: 12px;
-            padding: 9px 25px;
-            border-radius: 25px;
-            border: 1px solid $grey-color;
-            font-size: 17px;
-            font-weight: 700;
-            text-transform: uppercase;
-            color: $grey-color;
-            text-decoration: none;
-            background: $background-color-medium-light;
-
-			&:hover{
-				background: #fff;
-			}
-        }
     }
 
-    .recent-activity {
+    .publications {
 
-        h1 {
-            font-size: 24px;
-            font-weight: 400;
-            color: $grey-color-dark;
-            margin-bottom: 2 * $spacing-unit;
-            text-align: center;
-        }
 
         ol {
             list-style-position: outside;
@@ -351,15 +320,16 @@
             
             li {
                 color: $grey-color-dark;
-                margin-bottom: $spacing-unit * 0.7;
+                //margin-bottom: $spacing-unit * 0.7;
                 line-height: 2;
             }
         }
 
-        margin-left: 1.5 * $spacing-unit;
-        margin-right: 1 * $spacing-unit;
-        margin-top: 1.5 * $spacing-unit;
-        margin-bottom: 2 * $spacing-unit;
+		padding-top: 1.25 * $spacing-unit;
+        //margin-left: 1.5 * $spacing-unit;
+        //margin-right: 1 * $spacing-unit;
+        //margin-top: 1.5 * $spacing-unit;
+        //margin-bottom: 2 * $spacing-unit;
 
 		@include media-query($on-palm) {
 			margin-left: 0.5 * $spacing-unit;
