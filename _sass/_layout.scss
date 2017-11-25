@@ -127,6 +127,7 @@
     //padding: $spacing-unit 0;
 	margin-left: 300px;
     font-weight: 300;
+	margin-bottom: 2.5 * $spacing-unit;
 }
 
 .page-heading {
@@ -243,6 +244,18 @@
 		width: 6 * $spacing-unit;
 		float: left;
 
+		h5 {
+			font-size: 18px;
+			font-weight: 400;
+			color: $grey-color-slightly-dark;
+		}
+
+		p {
+			font-weight: 400;
+			font-size:16px;
+			color: $grey-color-dark;
+		}
+
 		img {
 			margin-bottom: 1.0 * $spacing-unit;
 			margin-left: 0.5 * $spacing-unit;
@@ -252,9 +265,6 @@
         text-align: left;
         padding-top: 1.25 * $spacing-unit;
         padding-bottom: 3.75 * $spacing-unit;
-		//padding-left: 2.0 * $spacing-unit;
-		//padding-right: 1.0 * $spacing-unit;
-        //background-color: $background-color-medium;
 
 		@include media-query($on-palm) {
 			padding-top: 2 * $spacing-unit;
@@ -263,7 +273,6 @@
     }
 
     .publications {
-
 
         ul {
             list-style-position: outside;
@@ -285,6 +294,11 @@
 		}
 
     }
+
+	.about {
+		margin-top: 2.0 * $spacing-unit;
+	}
+
 
 }
 
