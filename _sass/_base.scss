@@ -160,10 +160,10 @@ pre {
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(1200px - (#{$spacing-unit} * 2));
-        max-width:         calc(1200px - (#{$spacing-unit} * 2));
-        padding-right: $spacing-unit * 1.5;
-        padding-left: $spacing-unit / 2;
+        max-width: -webkit-calc(1200px - (#{$spacing-unit} * 3));
+        max-width:         calc(1200px - (#{$spacing-unit} * 3));
+        padding-right: $spacing-unit * 2;
+        padding-left: $spacing-unit;
     }
 
 	@include media-query($on-palm) {
