@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
   (finance).
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://amaresh-sahu.github.io/" # the base hostname & protocol for your site
-# twitter_username: paparesh
+# twitter_username: amaresh_sahu_
 # github_username:  amaresh-sahu
 # linkedin_username: amaresh-sahu-0735ab96
 # linkedin_link: amaresh-sahu
