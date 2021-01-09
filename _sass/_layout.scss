@@ -2,10 +2,10 @@
  * Site header
  */
 .site-header {
-    border-top: 1px solid $grey-color;
+    border-top:       1px solid $grey-color;
     background-color: $background-color-medium-light;
-    border-bottom: 1px solid $grey-color-light;    
-    min-height: 46px;
+    border-bottom:    1px solid $grey-color-light;    
+    min-height:       46px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -19,7 +19,6 @@
     line-height: 46px;
     letter-spacing: 0px;
     margin-bottom: 0;
-    //float: left;
 
     &,
     &:visited {
@@ -105,9 +104,9 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding-top: 0.4 * $spacing-unit;
-	padding-bottom: 0px;
+	padding-bottom: 0.4 * $spacing-unit;
     color: $background-color-medium;
-    background-color: #262626;
+    background-color: $footer-background-color;
     text-align: center;
 	p {
 		font-size: 14px;
@@ -128,12 +127,8 @@
     font-weight: 300;
 	margin-bottom: 2.5 * $spacing-unit;
 
-	@include media-query($on-laptop) {
-		margin-left: 0px;
-	}
-
     @include media-query($on-palm) {
-		margin-left: 0px;
+		margin-left: 0.5 * $spacing-unit;
 	}
 
 }
@@ -142,93 +137,7 @@
     font-size: 20px;
 }
 
-.post-list {
-    //margin-left: 0;
-    //list-style: none;
 
-    > li {
-        //margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    font-size: 18px;
-    color: $grey-color-dark;
-}
-
-.post-link {
-    display: block;
-    font-size: 21px;
-}
-
-
-
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: 2.5 * $spacing-unit;
-    margin-top: 2.5 * $spacing-unit;
-
-	@include media-query($on-palm) {
-		margin-bottom: $spacing-unit;
-		margin-top: $spacing-unit;
-	}
-}
-
-.post-title {
-    font-family: 'vollkorn', serif;
-    font-weight: 400;
-    font-size: 42px;
-    letter-spacing: 0px;
-    line-height: 1;
-    text-align: center;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
-
-	@include media-query($on-palm) {
-		font-size: 32px;
-	}
-}
-
-.post-content {
-    margin-bottom: 2.5 * $spacing-unit;
-    text-align: justify;
-
-	@include media-query($on-palm) {
-		margin-bottom: 1.2 * $spacing-unit;
-	}
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
-
-    p {
-        line-height: 1.8;
-    }
-}
 
 /**
  * Home Page
@@ -275,9 +184,13 @@
         padding-bottom: 3.75 * $spacing-unit;
 
 		@include media-query($on-palm) {
-			//padding-top: 2 * $spacing-unit;
+			width: calc(100%);
+			padding-top: 0.75 * $spacing-unit;
 			padding-bottom: 1.5 * $spacing-unit;
+            margin-left: 0.5 * $spacing-unit;
+			//background-color: $brand-color;
 		}
+
     }
 
     .publications {
@@ -320,19 +233,16 @@
 
 		padding-top: 1.25 * $spacing-unit;
 
-		@include media-query($on-palm) {
-			//margin-left: 0.5 * $spacing-unit;
-			//margin-right: 0.5 * $spacing-unit;
-			//margin-top: 0.75 * $spacing-unit;
-			//margin-bottom: 0.75 * $spacing-unit;
-		}
-
     }
 
 	.about {
 		margin-top: 2.0 * $spacing-unit;
 	}
 
+	@include media-query($on-palm) {
+		margin-left: 0.0 * $spacing-unit;
+		padding-left: 0px;
+	}
 
 }
 

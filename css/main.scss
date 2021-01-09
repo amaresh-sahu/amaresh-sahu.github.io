@@ -14,29 +14,30 @@ $base-line-height: 1.5;
 $spacing-unit:     40px;
 
 $black: #000;
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-medium-light: lighten($grey-color, 15%);
-$grey-color-slightly-dark: darken($grey-color, 5%);
-$grey-color-dark:  darken($grey-color, 25%);
-$grey-color-extra-dark: darken($grey-color, 45%);
+$grey-color: #828282;
+$grey-color-light:         lighten($grey-color, 40%);
+$grey-color-medium-light:  lighten($grey-color, 15%);
+$grey-color-slightly-dark:  darken($grey-color,  5%);
+$grey-color-dark:           darken($grey-color, 25%);
+$grey-color-extra-dark:     darken($grey-color, 45%);
 
-$text-color:       				#111;
-$background-color-light: 		lighten(#828282, 46%); //#fdfdfd;
-$background-color-medium-light: lighten(#828282, 44.5%);
-$background-color-medium:		lighten(#828282, 39.5%);
-$background-color-dark:			darken(#828282, 40%);
+$text-color: #111;
+$background-color-light: 		lighten($grey-color, 46%);
+$background-color-medium-light: lighten($grey-color, 44.5%);
+$background-color-medium:		lighten($grey-color, 39.5%);
+$background-color-dark:			 darken($grey-color, 40%);
+
+$footer-background-color: #262626;
 
 
 // this is the default background color, but generally when styling
 // use one of the above colors - or create a new one.
 $background-color: 	$background-color-light;
 $brand-color:      	darken(#ff4500, 15%);
-$brand-color-light:	darken(#ff4500,4%);
+$brand-color-light:	darken(#ff4500,  4%);
 
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$on-palm: 800px;
 
 
 
