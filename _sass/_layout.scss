@@ -146,9 +146,7 @@
 
 	background-color: $background-color;
 
-	p {
-		font-size: 17px;
-	}
+	font-size: 17px;
 
 	h1 {
 		font-size: 25px;
@@ -161,6 +159,8 @@
 		width: 6 * $spacing-unit;
 		float: left;
 
+		font-size: 16px;
+
 		h5 {
 			font-size: 18px;
 			font-weight: 400;
@@ -169,7 +169,6 @@
 
 		p {
 			font-weight: 400;
-			font-size:16px;
 			color: $grey-color-dark;
 		}
 
@@ -193,51 +192,67 @@
 
     }
 
+	.about {
+		padding-top: 1.25 * $spacing-unit;
+	}
+
+	.main {
+
+		padding-top: 1.25 * $spacing-unit;
+
+		ul {
+			list-style-position: outside;
+			margin-left: 0.5 * $spacing-unit;
+			list-style-type: disc;
+
+			li {
+				padding-bottom: 0.2 * $spacing-unit;
+			}
+		}
+
+	}
+
     .publications {
+
+		padding-top: 1.25 * $spacing-unit;
 
 		a {
 			font-size: 16px;
 		}
 
-        ol {
-            list-style-position: outside;
-            margin-left: 0.5 * $spacing-unit;
+		ol {
+			list-style-position: outside;
+			margin-left: 0.5 * $spacing-unit;
 			list-style-type: disc;
-            
-            li {
-                color: $grey-color-dark;
-            }
+			
+			li {
+				color: $grey-color-dark;
+			}
 
 			.title {
 				font-weight: 400;
-                color: $grey-color-dark;
+				color: $grey-color-dark;
 				font-size: 17px;
 			}
-        }
+		}
 
-        ul {
-            list-style-position: outside;
-            margin-left: 0.5 * $spacing-unit;
+		ul {
+			list-style-position: outside;
+			margin-left: 0.5 * $spacing-unit;
 			list-style-type: disc;
-            
-            li {
-                color: $grey-color-dark;
-            }
+			
+			li {
+				color: $grey-color-dark;
+			}
 
 			.title {
 				font-weight: 400;
-                color: $grey-color-dark;
+				color: $grey-color-dark;
 				font-size: 17px;
 			}
-        }
-
-		padding-top: 1.25 * $spacing-unit;
+		}
 
     }
-
-	.about {
-		margin-top: 2.0 * $spacing-unit;
-	}
 
 	@include media-query($on-palm) {
 		margin-left: 0.0 * $spacing-unit;
