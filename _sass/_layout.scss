@@ -126,6 +126,7 @@
 	margin-left: 300px;
     font-weight: 300;
 	margin-bottom: 2.5 * $spacing-unit;
+	min-height: 100vh;
 
     @include media-query($on-palm) {
 		margin-left: 0.5 * $spacing-unit;
